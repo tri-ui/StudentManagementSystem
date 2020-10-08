@@ -13,18 +13,18 @@ namespace Assignment1
         {
             gsetTitle = title;
         }
-
+        //get, set title
         public string gsetTitle
         {
             get { return title; }
             set { title = value; }
         }
-
+        //add content to menu
         public void addContent(string content)
         {
             listContent.Add(content);
         }
-
+        //print
         public void showMenu()
         {
             Console.WriteLine(gsetTitle);
