@@ -8,7 +8,7 @@ namespace Assignment1
         private string title;
 
         private ArrayList listContent = new ArrayList();
-
+        //create title
         public Menu(string title)
         {
             gsetTitle = title;

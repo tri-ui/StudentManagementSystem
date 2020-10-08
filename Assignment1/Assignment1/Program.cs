@@ -9,7 +9,7 @@ namespace Assignment1
         private static void Main(string[] args)
         {
             StudentManage cabin = new StudentManage();
-
+         
             Menu menu = new Menu("----***------Student manager-----***-----");
             menu.addContent("1. Show all information of Student");
             menu.addContent("2. Add Student");
